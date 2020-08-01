@@ -11,7 +11,7 @@ public class StringService {
     }
 
     public List<String> getSortedAlphabeticallyZACaseInsensitive(List<String> list) {
-        Collections.sort(list, Comparator.comparing((String s)->s.toLowerCase()).reversed()));
+        Collections.sort(list, Comparator.comparing((String s)->s.toLowerCase()).reversed());
         return list;
     }
 }
